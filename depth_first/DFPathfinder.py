@@ -1,4 +1,4 @@
-from queue import Queue
+from queue import LifoQueue
 
 import pygame
 
@@ -8,7 +8,7 @@ from maze_creator.Creator import Creator
 from maze_creator.SquareState import SquareState
 
 
-class BFPathfinder:
+class DFPathfinder:
     @staticmethod
     def find_path():
         def _get_valid_neighbours(r: int, c: int):
@@ -56,7 +56,7 @@ class BFPathfinder:
         print(f'Starting position: {start_pos}')
         print(f'Ending position: {end_pos}')
 
-        q = Queue()
+        q = LifoQueue()
         q.put([start_pos])
 
         while not finished:
@@ -95,4 +95,4 @@ class BFPathfinder:
 
 
 if __name__ == '__main__':
-    BFPathfinder.find_path()
+    DFPathfinder.find_path()

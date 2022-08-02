@@ -20,3 +20,17 @@ To run the pathfinder run the breadth_first/BFPathfinder.py file
   ![Result](breadth_first/resources/result.png)
 - you can also inspect the moves that were made (including starting and ending pos)
   ![Moves](breadth_first/resources/moves.png)
+
+-----------------------------------------------------------------
+
+## DEPTH FIRST
+
+https://en.wikipedia.org/wiki/Depth-first_search
+
+### Pseudocode
+
+![Pseudocode](depth_first/resources/pseudocode.png)
+
+### Running the pathfinder
+
+To run the pathfinder run the depth_first/DFPathfinder.py file

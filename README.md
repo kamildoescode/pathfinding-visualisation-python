@@ -51,18 +51,32 @@ To run the pathfinder run the dijkstra/DijkstraPathfinder.py file
 
 -----------------------------------------------------------------
 
-## A* - MANHATTAN / TAXICAB DISTANCE
+## A*
 
 https://en.wikipedia.org/wiki/A*_search_algorithm
+
+### Pseudocode
+
+![Pseudocode](a_star/resources/pseudocode.png)
+
+## A* - MANHATTAN / TAXICAB DISTANCE
 
 ### HEURISTIC (APPROXIMATE) FUNCTION
 
 https://en.wikipedia.org/wiki/Taxicab_geometry
 
-### Pseudocode
-
-![Pseudocode](a_star/taxicab/resources/pseudocode.png)
-
 ### Running the pathfinder
 
 To run the pathfinder run the a_star/taxicab/AStarPathfinder.py file
+
+-----------------------------------------------------------------
+
+## A* - EUCLIDEAN DISTANCE
+
+### HEURISTIC (APPROXIMATE) FUNCTION
+
+https://en.wikipedia.org/wiki/Euclidean_distance
+
+### Running the pathfinder
+
+To run the pathfinder run the a_star/euclidean/AStarPathfinder.py file

@@ -34,3 +34,17 @@ https://en.wikipedia.org/wiki/Depth-first_search
 ### Running the pathfinder
 
 To run the pathfinder run the depth_first/DFPathfinder.py file
+
+-----------------------------------------------------------------
+
+## DIJKSTRA'S ALGORITHM
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+### Pseudocode
+
+![Pseudocode](dijkstra/resources/pseudocode.png)
+
+### Running the pathfinder
+
+To run the pathfinder run the dijkstra/DijkstraPathfinder.py file
